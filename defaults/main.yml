@@ -16,5 +16,5 @@ packages:
 # Custom user tasks to run:
 user_tasks:
 # Configure vim.
- - item_path: https://is.gd/9LP2vb
+ - item_path: https://is.gd/bOpZnd
    item_expand: false
