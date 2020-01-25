@@ -1,0 +1,20 @@
+---
+
+# Packages to install via apt.
+packages:
+ - apt-transport-https
+ - bzip2
+ - ca-certificates
+ - curl
+ - sudo
+ - unrar-free
+ - unzip
+ - vim
+ - wget
+ - xz-utils
+
+# Custom user tasks to run:
+user_tasks:
+# Configure vim.
+ - item_path: https://is.gd/9LP2vb
+   item_expand: false
