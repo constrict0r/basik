@@ -83,7 +83,7 @@ This is capable of:
 
 * Add `apt <https://wiki.debian.org/Apt>`_ repository sources.
 
-* Updated the apt cache.
+* Update the apt cache.
 
 * Uninstall apt packages.
 
@@ -638,18 +638,18 @@ This variable is empty by default.
 
    # Including from terminal.
    ansible localhost -m include_role -a name=constrict0r.basik -K -e \
-       "{user_skeleton: [https://github.com/constrict0r/home]}"
+       "{user_skeleton: [https://gitlab.com/constrict0r/home]}"
 
    # Including on a playbook.
    - hosts: servers
      roles:
        - role: constrict0r.basik
          user_skeleton:
-           - https://github.com/constrict0r/home
+           - https://gitlab.com/constrict0r/home
 
    # To a playbook from terminal.
    ansible-playbook -i tests/inventory tests/test-playbook.yml -K -e \
-       "{user_skeleton: [https://github.com/constrict0r/home]}"
+       "{user_skeleton: [https://gitlab.com/constrict0r/home]}"
 
 
 user_tasks
@@ -667,18 +667,18 @@ This variable is empty by default.
 
    # Including from terminal.
    ansible localhost -m include_role -a name=constrict0r.basik -K -e \
-       "{user_tasks: [https://is.gd/uE0TTp]}"
+       "{user_tasks: [https://is.gd/vVCfKI]}"
 
    # Including on a playbook.
    - hosts: servers
      roles:
        - role: constrict0r.basik
          user_tasks:
-           - https://is.gd/uE0TTp
+           - https://is.gd/vVCfKI
 
    # To a playbook from terminal.
    ansible-playbook -i tests/inventory tests/test-playbook.yml -K -e \
-       "{user_tasks: [https://is.gd/uE0TTp]}"
+       "{user_tasks: [https://is.gd/vVCfKI]}"
 
 
 configuration
