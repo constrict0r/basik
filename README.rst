@@ -202,15 +202,17 @@ Usage
         vars:
           packages: [gedit, rolldice]
 
-To run tests:
+* To run tests:
 
-::
+..
 
-   cd basik
-   chmod +x testme.sh
-   ./testme.sh
+   ::
 
-On some tests you may need to use *sudo* to succeed.
+      cd basik
+      chmod +x testme.sh
+      ./testme.sh
+
+   On some tests you may need to use *sudo* to succeed.
 
 
 Variables
