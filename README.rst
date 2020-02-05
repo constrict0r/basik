@@ -91,7 +91,7 @@ This is capable of:
 
 * Install `yarn <https://yarnpkg.com>`_ packages.
 
-* Install `pip <https://pypi.org/project/pip>`_ packages.
+* Install `pip <https://pypi.org/project/pip/>`_ packages.
 
 * Apply system-wide configuration using git.
 
