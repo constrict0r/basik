@@ -15,9 +15,9 @@ This is capable of:
 
 - Install apt packages.
 
-- Install `npm <http://npmjs.org/>`_ packages.
+- Install `yarn <https://yarnpkg.com>`_ packages.
 
-- Install `pip <https://pypi.org/project/pip/>`_ packages.
+- Install `pip <https://pypi.org/project/pip>`_ packages.
 
 - Apply system-wide configuration using git.
 
