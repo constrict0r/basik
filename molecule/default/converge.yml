@@ -32,7 +32,7 @@
 
   roles:
     - role: basik
-      user: mary
+      users: mary
 
   post_tasks:
     - name: Run verification tests.
