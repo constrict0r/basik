@@ -1,5 +1,5 @@
 Description
-------------------------------------------------------------------------------
+--------------------------------------------------------------
 
 Ansible role to setup basic Debian-like systems.
 
@@ -37,8 +37,8 @@ By default this role applies the following configuration:
 
 - Installs the software:
 
- .. include:: parts/packages/base.inc
+ .. include:: part/package/base.inc
 
 - Configures the following software:
 
- .. include:: parts/configured/base.inc
+ .. include:: part/configured/base.inc
